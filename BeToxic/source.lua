@@ -44,3 +44,7 @@ function toxic()
     msg(toxicmsgs[sp])
     until enabled == false 
 end
+
+init()
+
+warn("coded by UtilityProtocols -- Head coded by designify123 - Oct18th 2021")
