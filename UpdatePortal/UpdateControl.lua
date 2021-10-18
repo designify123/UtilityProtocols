@@ -6,6 +6,9 @@ function FindPortal()
     if point == "BeToxic" then 
         loadstring(game:HttpGet('https://raw.githubusercontent.com/designify123/UtilityProtocols/main/BeToxic/source.lua', true))()
      end
+    if point == "FakeIPLogger" then 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/designify123/UtilityProtocols/main/FakeIPLogger/source.lua", true))()
+     end
 end
 
 if not point then 
