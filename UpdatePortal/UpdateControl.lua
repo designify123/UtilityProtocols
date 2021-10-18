@@ -13,6 +13,5 @@ if not point then
 elseif point then
   FindPortal()
   end
-end
 
 
