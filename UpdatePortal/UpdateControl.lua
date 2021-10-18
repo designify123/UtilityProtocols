@@ -5,6 +5,7 @@ warn("Current Update Portal Version running at build: 1.0.0")
 function FindPortal()
     if point == "BeToxic" then 
         print("Works.")
+     end
 end
 
 if not point then 
