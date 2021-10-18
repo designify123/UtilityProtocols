@@ -1,18 +1,17 @@
 
 warn("Update Portal Initalized, finding last gateway...")
 warn("Current Update Portal Version running at build: 1.0.0")
-  
-print(point)
+
+function FindPortal()
+    if point == "BeToxic" then 
+        print("Works.")
+end
 
 if not point then 
   warn("Unkown last gateway: no signals found. Please execute one of the loader scripts, if you think this is a mistake contact discord staff.")
-  else 
-  FindPortal(point)
-end
-
-
-function FindPortal(portal)
-  if portal == "test" then 
-    warn("Test Module initalized.")
+elseif point then
+  FindPortal()
   end
 end
+
+
