@@ -1,5 +1,7 @@
 
 warn("Update Portal Initalized, finding last gateway...")
+warn("Current Update Portal Version running at build: 1.0.0")
+  
 print(point)
 
 if not point then 
