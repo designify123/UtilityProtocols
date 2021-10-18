@@ -1,10 +1,10 @@
 
 warn("Update Portal Initalized, finding last gateway...")
-warn("Current Update Portal Version running at build: 1.0.22")
+warn("Current Update Portal Version running at build: 1.0.2")
 
 function FindPortal()
     if point == "BeToxic" then 
-        print("Works.")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/designify123/UtilityProtocols/main/BeToxic/source.lua', true))()
      end
 end
 
