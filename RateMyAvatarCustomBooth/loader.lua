@@ -7,7 +7,7 @@ getgenv().BoothDelay = 1
 
 getgenv().BoothWords = {
   "random words!",
-  "remember to put a comma at end of second lastline!
+  "remember to put a comma at end of second lastline!"
 }
 
 
