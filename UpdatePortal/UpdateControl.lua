@@ -8,6 +8,8 @@ function FindPortal()
      end
     if point == "FakeIPLogger" then 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/designify123/UtilityProtocols/main/FakeIPLogger/source.lua", true))()
+     if point == "RateMyAvatarCB" then 
+            
      end
 end
 
