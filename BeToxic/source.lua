@@ -7,13 +7,9 @@ print("BeToxic Started.")
 -- /disble
 
  speaker = game.Players.LocalPlayer
- delay = 1 
  enabled = false 
 
-local toxicmsgs = { -- U can add mores when wanted
-  "noob",
-  "get good kid"
-}
+
 
 
 function msg(str)
