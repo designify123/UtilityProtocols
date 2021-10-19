@@ -28,9 +28,13 @@ function init()
 end 
 
 function start()
-  if enabled == true then 
+  if IsEnabled == true then 
     if types == "random" then
+      repeat 
+        wait(delay)
       local sp = math.random(1, #words)
+        sendEvent(words[sp])
+        until IsEnabled == false
       end
    end
 end
@@ -39,7 +43,7 @@ function sendEvent(msg)
   local args = {
     [1] = ""
     [2] = {
-      
+     
 }
-}
+    -- Remote goes here
 end
