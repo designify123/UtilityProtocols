@@ -1,4 +1,4 @@
-print("RMACB loaded. : V1.0.0")
+print("RMACB loaded. : V1.0.1")
 
 speaker = game.Players.LocalPlayer
 isEnabled = true
