@@ -24,9 +24,8 @@ end
 function init()
     speaker.Chatted:Connect(function(msg)
         if msg  == "/disable" then
-        if isEnabled == true then 
+        print("CVL")
           isEnabled = false
-          end
        end
     end)
   end
