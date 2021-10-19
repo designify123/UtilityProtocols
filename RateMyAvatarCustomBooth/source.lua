@@ -6,7 +6,8 @@ local delay = 1
 local isEnabled = true
 
 -- Commands 
--- /
+-- /disable
+
 
 
 local words = {
@@ -14,3 +15,31 @@ local words = {
   "make sure there is comma at 2nd last line."
 }
 
+function init()
+  if speaker then 
+    speaker.Chatted:Connect(function(msg)
+        if msg not == "/disable" then return end
+        else 
+        if isEnabled == true then 
+          isEnabled = false
+       end
+    end)
+  end
+end 
+
+function start()
+  if enabled == true then 
+    if types == "random" then
+      local sp = math.random(1, #words)
+      end
+   end
+end
+
+function sendEvent(msg)
+  local args = {
+    [1] = ""
+    [2] = {
+      
+}
+}
+end
