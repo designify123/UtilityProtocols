@@ -36,7 +36,7 @@ function start()
     if Types == "random" then
       repeat 
           wait(BoothDelay)
-      local sp = math.random(1, #words)
+      local sp = math.random(1, #BoothWords)
         sendEvent(BoothWords[sp])
         until IsEnabled == false
       end
@@ -45,3 +45,4 @@ end
 
 
 start()
+init()
