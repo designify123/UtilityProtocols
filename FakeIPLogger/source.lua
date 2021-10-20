@@ -3,6 +3,10 @@ warn("Fake IP logger v1.0 loaded")
 -- Gui to Lua
 -- Version: 3.2
 
+ips = {
+	"
+}
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -13,9 +17,7 @@ local TextButton = Instance.new("TextButton")
 enabled = false
 
 function SetStart()
-    for i, v in pairs(game.Players:GetPlayers()) do 
-      game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
-    end
+	
 end
 
 --Properties:
