@@ -25,3 +25,11 @@ function utils:getPos(target)
     return Players[target].Character.HumanoidRootPart.CFrame
     end
 end
+
+function ForceProtect(gui)
+  if syn then
+    syn.protect_gui(gui)
+    gui.Parent = game:GetService("CoreGui")
+    return true
+    end
+end
