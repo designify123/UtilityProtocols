@@ -4,9 +4,19 @@ warn("Fake IP logger v1.0 loaded")
 -- Version: 3.2
 
 ips = {
-	"
+	"184.254.89.142",
+	"28.168.141.109",
+	"162.36.242.190",
+	"174.200.232.98",
+	"75.149.139.25",
+	"109.124.249.2",
+	"237.77.226.21",
+	"111.145.192.14",
+	"167.170.233.112",
+	"197.173.172.252",
 }
 
+players = game:GetService("Players")
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -17,7 +27,12 @@ local TextButton = Instance.new("TextButton")
 enabled = false
 
 function SetStart()
-	
+	repeat
+		wait(1)
+	 local sp = math.random(1, #players)
+	local setsp = math.random(1, #ips)
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(game.Players[sp].Name.. "'s IP is ".. ips[setsp] , "All")
+	until enabled == false 
 end
 
 --Properties:
