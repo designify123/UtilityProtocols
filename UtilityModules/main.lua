@@ -18,7 +18,7 @@ function utils:IdToPlayer(id)
     end
 end
 
-function getPos(target)
+function utils:getPos(target)
   if target == "me" then 
     return speaker.Character.HumanoidRootPart.CFrame
   else 
