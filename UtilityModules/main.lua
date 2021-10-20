@@ -26,10 +26,12 @@ function utils:getPos(target)
     end
 end
 
-function ForceProtect(gui)
+function utils:ForceProtect(gui)
   if syn then
     syn.protect_gui(gui)
     gui.Parent = game:GetService("CoreGui")
     return true
     end
 end
+
+
