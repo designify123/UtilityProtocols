@@ -34,4 +34,6 @@ function utils:ForceProtect(gui)
     end
 end
 
-
+function utils:IsAuth(plr)
+  -- auth system still wip lmao 
+end
