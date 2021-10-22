@@ -15,6 +15,7 @@ function FindPortal()
      if point == "RateMyAvatarCB" then 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/designify123/UtilityProtocols/main/RateMyAvatarCustomBooth/source.lua", true))()
         warn("MyAvatarCB-RMACB Client required.")
+     if point == "
      end
 end
 
